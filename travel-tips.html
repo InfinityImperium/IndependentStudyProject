@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <title>Official Tourism Website of the Roman People's Republic</title>   
+        
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+       
+        <style>
+            
+            
+
+
+        </style>
+    </head>
+    
+    <body>
+        
+        <div class = "nav">
+            
+            <a class = "active" href = "index.html">Home</a>
+            <a href = "sights-to-see.html">Sights to See</a>
+            <a href = "travel-tips.html">Travel Tips</a>
+            <a href = "languages-of-the-republic.html">Languages of the Republic</a>
+            <a href = "arrange-a-trip.html">Register for a Trip!</a>
+            
+        </div>
+   
+   
+        <div class="bg" id = "bgi" style="background-image: url('https://cdn.britannica.com/00/188300-050-972ACBFB/Dolomites-Italian-Alps.jpg');">
+            
+            <div class = "intro">
+                <img src = "https://codehs.com/uploads/40f0add2107b2b2056e5fa89953766b4" alt = "Roman People's Republic Flag" height = "100px" id = "leftFlag">
+                <img src = "https://codehs.com/uploads/40f0add2107b2b2056e5fa89953766b4" alt = "Roman People's Republic Flag" height = "100px" id = "rightFlag">
+                <h1 style = "color: #8B0000; text-decoration: underline">Travel Tips</h1>
+                
+                
+        
+            </div>
+            
+            
+            <div class = "contents">
+                
+              <div class = "visible">
+                  <h3>Pack Light.</h3>
+              </div>
+              
+              <div class = "hidden">
+                  <p>As a People's Republic, many services are provided free of cost. That includes healthcare, transport, and public hotels. We allow you to focus on attaining your goals without having to pay 35 dinarii a night. </p>
+              </div>
+              
+              
+              
+              
+              <div class = "visible">
+                  <h3>Be Sensitive.</h3>
+              </div>
+              
+              <div class = "hidden">
+                  <p>The Republic has a strong socialist heritage. We hope that visitors respect the culture of our citizens while here.</p>
+              </div>
+              
+              
+              <div class = "visible">
+                  <h3>Have Fun!</h3>
+              </div>
+              
+              <div class = "hidden">
+                  <p>There is so much to explore here in Rome. Keep an open mind: you never know what amazing things you will see.</p>
+              </div>
+                           
+              
+             
+
+              
+              
+                
+               
+               
+            </div>
+        
+            
+             <div class = "division" visibility = "hidden"></div>
+
+              
+        
+                
+                
+            
+            
+            
+            
+        </div>
+        
+        <div class = "footer"><br>Copyright © Roma.org.rm. All Rights Reserved. <h6>Romae ISP Certificatorium No. 040089 Romae Numerus securitatis Publicus Network. 110108006329
+Retiacula passim e programmatis audio-visuali licentia numero: 0105123</h6></div>
+        
+        
+     
+        
+        
+        
+    <script>
+        var div = document.getElementById("bgi");
+        var images = ["https://cdn.britannica.com/00/188300-050-972ACBFB/Dolomites-Italian-Alps.jpg", 
+        "https://i.natgeofe.com/n/535f3cba-f8bb-4df2-b0c5-aaca16e9ff31/giza-plateau-pyramids.jpg", 
+        "https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdXB3azYyMDY3Mzg2LXdpa2ltZWRpYS1pbWFnZS1rb3dmY3JqOS5qcGc.jpg"];
+        var index = 0;
+        function update(){
+            index = (index + 1) % images.length;
+            div.style.backgroundImage = "url('" + images[index] + "')";
+    
+            
+        }
+        setInterval(update, 5000);
+    
+    
+    </script>    
+        
+        
+        
+    </body>
+
+</html>
