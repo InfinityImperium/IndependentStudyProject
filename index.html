@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <title>Official Tourism Website of the Roman People's Republic</title>   
+        
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+       
+    
+    </head>
+    
+    <body>
+        
+        <div class = "nav">
+            
+            <a class = "active" href = "index.html">Home</a>
+            <a href = "sights-to-see.html">Sights to See</a>
+            <a href = "travel-tips.html">Travel Tips</a>
+            <a href = "languages-of-the-republic.html">Languages of the Republic</a>
+            <a href = "arrange-a-trip.html">Register for a Trip!</a>
+            
+        </div>
+   
+   
+        <div class="bg" id = "bgi" style="background-image: url('https://cdn.britannica.com/00/188300-050-972ACBFB/Dolomites-Italian-Alps.jpg');">
+            
+            <div class = "intro">
+                <img src = "https://codehs.com/uploads/40f0add2107b2b2056e5fa89953766b4" alt = "Roman People's Republic Flag" height = "100px" id = "leftFlag">
+                <img src = "https://codehs.com/uploads/40f0add2107b2b2056e5fa89953766b4" alt = "Roman People's Republic Flag" height = "100px" id = "rightFlag">
+                <h1 style = "color: #8B0000; text-decoration: underline">Grata Romam!</h1>
+                
+                
+        
+            </div>
+            
+            
+            <div>
+                
+                
+                <div class = "division leftDiv">
+                
+                <h3 style = "text-decoration: underline">Whole New Worlds to Explore ...</h3>
+                
+                    
+                <p>In Rome, you can</p>
+                <ul>
+                    <li>Snorkel in the Aegean,</li>
+                    <li>Backpack through the Alpes,</li>
+                    <li>Brave the shifting sands of Arabia Petraea,</li>
+                </ul>
+                or,
+                <ul>
+                    <li>Visit landmarks of the Revolution,</li>
+                    <li>Explore a three-thousand-year heritage,</li>
+                    <li>Go on pilgrimage to Judaea,</li>
+                </ul>
+                
+                <p><b>All with one visa!</b></p>
+    
+                </div>
+                
+                
+                <div class = "division imageDiv">
+                    <img src = "https://as1.ftcdn.net/v2/jpg/02/42/00/18/1000_F_242001840_jSeSBya5Uu0BiKw8IBY8iA54qKSURtJ0.jpg" height = "300px" width = "400px">
+                </div>
+               
+               
+               
+            </div>
+        
+            
+        
+            <div>
+                
+                
+               <div class = "division rightDiv">
+                   
+                  <h3 style = "text-decoration: underline">... Just at the Click of a Button.</h3>
+              
+                <p>You can visit Rome by</p>
+                <ul>
+                    
+                    <li>Signing up on one of our <a href = "arrange-a-trip.html">special seasonal tours</a>. </li>
+                    <li>Registering for a work or study visa. There's plenty to see <br> outside of work! </li>
+                    
+                </ul>
+                
+                <p>Winter trip registration is available <b>from August 15 to October 15</b>, <br> and Summer trip registration is available <b>from January 15 to <br> March 15</b>.</p>
+                
+                <p>Visa registration is open at all times.</p>
+                
+                <p>We hope you take the opportunity to see what we have to offer!</p>
+                
+                
+                
+                
+            
+               </div> 
+                
+                <div class = "division imageDiv rightDiv">
+                    <img src = "https://res.cloudinary.com/djcyhbk2e/image/upload/c_fit,f_auto,h_800,q_35,w_800/v1/gvv/prod/ckhnkn1mvdfblu51ex9y" height = "300px" width = "400px">
+                </div>
+                
+                
+                
+                
+                
+            </div>
+                
+                
+                
+                
+            
+            
+            
+            
+        </div>
+        
+        <div class = "footer"><br>Copyright © Roma.org.rm. All Rights Reserved. <h6>Romae ISP Certificatorium No. 040089 Romae Numerus securitatis Publicus Network. 110108006329
+Retiacula passim e programmatis audio-visuali licentia numero: 0105123</h6></div>
+        
+        
+     
+        
+        
+        
+    <script>
+        var div = document.getElementById("bgi");
+        var images = ["https://cdn.britannica.com/00/188300-050-972ACBFB/Dolomites-Italian-Alps.jpg", 
+        "https://i.natgeofe.com/n/535f3cba-f8bb-4df2-b0c5-aaca16e9ff31/giza-plateau-pyramids.jpg", 
+        "https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdXB3azYyMDY3Mzg2LXdpa2ltZWRpYS1pbWFnZS1rb3dmY3JqOS5qcGc.jpg"];
+        var index = 0;
+        function update(){
+            index = (index + 1) % images.length;
+            div.style.backgroundImage = "url('" + images[index] + "')";
+    
+            
+        }
+        setInterval(update, 5000);
+        
+        
+    
+    
+    </script>    
+        
+        
+        
+    </body>
+
+</html>
