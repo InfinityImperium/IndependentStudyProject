@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <title>Official Tourism Website of the Roman People's Republic</title>   
+        
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+       
+        <style>
+            
+            
+
+
+        </style>
+    </head>
+    
+    <body>
+        
+        <div class = "nav">
+            
+            <a class = "active" href = "index.html">Home</a>
+            <a href = "sights-to-see.html">Sights to See</a>
+            <a href = "travel-tips.html">Travel Tips</a>
+            <a href = "languages-of-the-republic.html">Languages of the Republic</a>
+            <a href = "arrange-a-trip.html">Register for a Trip!</a>
+            
+        </div>
+   
+   
+        <div class="bg" id = "bgi" style="background-image: url('https://cdn.britannica.com/00/188300-050-972ACBFB/Dolomites-Italian-Alps.jpg');">
+            
+            <div class = "intro">
+                <img src = "https://codehs.com/uploads/40f0add2107b2b2056e5fa89953766b4" alt = "Roman People's Republic Flag" height = "100px" id = "leftFlag">
+                <img src = "https://codehs.com/uploads/40f0add2107b2b2056e5fa89953766b4" alt = "Roman People's Republic Flag" height = "100px" id = "rightFlag">
+                <h1 style = "color: #8B0000; text-decoration: underline">Languages of the Republic</h1>
+                
+                
+        
+            </div>
+            
+            
+            <div class = "contents">
+              <h2>Duae Linguae Exaltatae</h2>
+              <p>Two languages are held to official status throughout the Republic. They are taught in schools throughout the nation; knowing a few phrases in each language can be helpful in getting to know the Republic on a deeper level.</p>
+              <div class = "visible">
+                  <h3>Latin</h3>
+              </div>
+              
+              <div class = "hidden">
+                  <p>Latin, once a dialect spoken only in Rome, is now the official governmental language throughout the Republic. It is spoken by almost 230 million people natively, and by almost 500 million people as a second language across the Republic. All People's Senate correspondence (along with official news) is in Latin.</p>
+                  <h4>Some Useful Phrases.</h4>
+                  <ul>
+                      <li><b>Salve! -</b> Hello</li>
+                      <li><b>Quid agis hodie -</b> How are you today?</li>
+                      <li><b>ubi est [X]?-</b> Where is [X]?</li>
+                      <li><b>Gratias tibi?-</b> Thank you.</li>
+                  </ul>
+              </div>
+              
+              <div class = "visible">
+                  <h3>Greek</h3>
+              </div>
+              
+              <div class = "hidden">
+                  <p>The Hellenes were the pioneers of the democratic tradition and the principles upon which our People's Republic stands. It is spoken by approximately 129 million people across Achaia, Asia, Aegyptus, and other areas in the East of our Republic. Greek is an essential language to be familiar with, whether in the markets of Constantinople or the shifting sands of Aegyptus.</p>
+                  <h4>Some Useful Phrases.</h4>
+                  <ul>
+                      <li><b>Geiá sou! -</b> Hello!</li>
+                      <li><b>Pós eísai símera? -</b> How are you today?</li>
+                      <li><b>Poú eínai [X]?-</b> Where is [X]?</li>
+                      <li><b>efcharistó?-</b> Thank you.</li>
+                  </ul>
+              </div>
+              
+              
+              
+             
+              
+              
+                          
+              
+            </div>
+            
+            <div class = "contents">
+                
+                <h2>Other Languages in the Republic</h2>
+                
+                
+              <div class = "visible">
+                  <h3>Arabic</h3>
+              </div>
+              
+              <div class = "hidden">
+                  <p>Arabic is spoken natively by approximately 25.5 million people in Arabia Petraea and other parts of the East. It is the liturgical religion of the sect known as "Din Al-Islam," which has approximately 41 million followers in the Republic.</p>
+              </div>
+              
+              <div class = "visible">
+                  <h3>Syriac</h3>
+              </div>
+              
+              <div class = "hidden">
+                  <p>Syriac is spoken by approximately 40 million people in Syria and other provinces in the east of the Republic. It is the liturgical language of the Eastern Church, a church in full communion with the Church in Rome.</p>
+              </div>
+              
+              <div class = "visible">
+                  <h3>Coptic</h3>
+              </div>
+              
+              <div class = "hidden">
+                  <p>Coptic is spoken by approximately 81 million people in Egypt. It is often spoken in rural areas.</p>
+              </div>
+              
+                
+            </div>
+        
+            
+             
+
+              
+        
+                
+                
+            
+            
+            
+            
+        </div>
+        
+        <div class = "footer"><br>Copyright © Roma.org.rm. All Rights Reserved. <h6>Romae ISP Certificatorium No. 040089 Romae Numerus securitatis Publicus Network. 110108006329
+Retiacula passim e programmatis audio-visuali licentia numero: 0105123</h6></div>
+        
+        
+     
+        
+        
+        
+    <script>
+        var div = document.getElementById("bgi");
+        var images = ["https://cdn.britannica.com/00/188300-050-972ACBFB/Dolomites-Italian-Alps.jpg", 
+        "https://i.natgeofe.com/n/535f3cba-f8bb-4df2-b0c5-aaca16e9ff31/giza-plateau-pyramids.jpg", 
+        "https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdXB3azYyMDY3Mzg2LXdpa2ltZWRpYS1pbWFnZS1rb3dmY3JqOS5qcGc.jpg"];
+        var index = 0;
+        function update(){
+            index = (index + 1) % images.length;
+            div.style.backgroundImage = "url('" + images[index] + "')";
+    
+            
+        }
+        setInterval(update, 5000);
+    
+    
+    </script>    
+        
+        
+        
+    </body>
+
+</html>
